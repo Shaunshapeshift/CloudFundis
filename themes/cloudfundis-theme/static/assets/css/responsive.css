@@ -1,0 +1,351 @@
+@media screen and (max-width: 991px) {
+
+    .col-service,
+    .co-con,
+    .col-know,
+    .col-form,
+    .col-spark {
+        width: 100%;
+    }
+
+    section.service-page-sec.work-page-s h4 {
+        margin-top: 60px;
+    }
+
+    section.blog-pgae-sec.mt-h,
+    section.contact-form-sec {
+        margin-bottom: 100px;
+    }
+
+    .inner-cards-box,
+    .row-ha.dy-flex {
+        margin-top: 60px;
+    }
+
+    .mt-h2 {
+        margin-top: 100px;
+    }
+
+    .partners-side,
+    .inner-enhance,
+    .inner-con,
+    .inner-know,
+    .inner-form-content,
+    .col-spark .inner {
+        padding-right: 0px;
+    }
+
+    .fundis-sec {
+        padding: 90px 0px;
+    }
+
+    .text-can,
+    .r-article {
+        margin-bottom: 60px;
+    }
+
+    .col-datalake {
+        width: 49.3%;
+    }
+
+    .con-contents {
+        margin-top: 21px;
+    }
+
+    .main-footer {
+        padding: 100px 0px;
+    }
+
+    .default-content-container-inner .logos,
+    .row-suppliers {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+
+    .service-expertise ul,
+    .d-ext ul {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 20px;
+        row-gap: 20px;
+    }
+
+    section.price-break-sec {
+        background-color: #F2F2F2;
+        padding: 60px 0px;
+    }
+
+
+    .form-box {
+        margin-top: 50px;
+    }
+
+    .need-assistance {
+        padding: 60px 0px;
+    }
+
+    .need-assistance::after {
+        max-width: 467px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .assistance-inner {
+        max-width: 100%;
+    }
+
+    .need-assistance::after {
+        max-width: 358px;
+        height: 280;
+        bottom: 0px;
+        top: auto;
+    }
+
+    .need-assistance {
+        background: linear-gradient(534.47deg, #FF0000 0.81%, #F48025 99.19%);
+    }
+
+    .need-assistance {
+        padding: 60px 0px 340px;
+    }
+
+    .inner-grey-section {
+        padding: 150px 0px 244px;
+    }
+
+    img.logo-img-banner {
+        right: 30px;
+        bottom: -290px;
+        width: 200px;
+    }
+
+    .col-decision-making {
+        width: 47.2%;
+    }
+
+    section.blog-pgae-sec.mt-h,
+    section.contact-form-sec {
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 46.8px;
+
+    }
+
+    section.banner-section::after {
+        max-width: 576px;
+    }
+
+    section.banner-section {
+        padding: 220px 0px 100px;
+    }
+
+    .row-work-box,
+    .row-keys.dy-flex {
+        margin-top: 60px;
+    }
+
+    section.fundis-sec.result.mt-h h2 {
+        margin-bottom: 60px;
+    }
+
+    .row-page-service .service-box {
+        width: 49.2%;
+    }
+
+    section.inner-section.bg-color::after {
+        max-width: 430px;
+    }
+
+    section.decision-making,
+    section.fundis-sec.result.mt-h {
+        padding: 60px 0px;
+    }
+
+    .inner-sap-section h3 {
+        margin-top: 21px;
+    }
+
+    .col-keys,
+    .col-article {
+        width: 48.8%;
+    }
+
+    section.key-outs {
+        padding: 60px 0px;
+    }
+
+    .o-name {
+        margin-bottom: 60px;
+    }
+
+    .row-partitioning.dy-flex .col-partitioning:first-child .inner img,
+    .row-partitioning.dy-flex .col-partitioning:first-child .inner .inner-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .new-reality p {
+        margin-top: 20px;
+    }
+
+    section.banner-section h1 {
+        max-width: 307px;
+    }
+
+    .form-box {
+        padding: 25px;
+    }
+
+    .service-box,
+    .col-hamish,
+    .col-article,
+    .col-article img {
+        width: 100%;
+    }
+
+    .col-partitioning {
+        width: 100%;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 33.2px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 38.6px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+
+    .col-datalake,
+    .row-page-service .service-box {
+        width: 100%;
+    }
+
+    .col-m-ftr {
+        width: 100%;
+    }
+
+    .aws-select p {
+        margin: 40px 0px 60px;
+    }
+
+    .follow-us,
+    .follow-us ul,
+    .created-by {
+        justify-content: flex-start;
+    }
+
+    .follow-us,
+    .created-by {
+        margin-top: 40px;
+    }
+
+    .follow-us {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+
+    .row-page-service.dy-flex {
+        margin-top: 60px;
+    }
+
+    .service-page-sec {
+        margin-bottom: 60px;
+    }
+
+    section.service-page-sec.work-page-s .col-datalake .inner {
+        min-height: auto;
+    }
+
+    section.service-page-sec.bright .service-box .inner,
+    section.service-page-sec.analys .service-box .inner {
+        min-height: auto;
+    }
+
+    section.banner-section {
+        padding: 136px 0px 0px;
+    }
+
+    .mobile-banner-img {
+        display: block;
+        margin-top: -170px;
+    }
+
+    .mobile-banner-img img,
+    .inner-banner-img img {
+        width: 100%;
+    }
+    section.inner-section.bg-color {
+        background: linear-gradient(172.47deg, #583091 0.81%, #FF0000 99.19%);
+    }
+    section.banner-section::after,
+    section.inner-section.bg-color::after {
+        display: none;
+    }
+
+    .inner-section {
+        padding: 151px 0px 0px;
+    }
+
+    .inner-banner-img {
+        display: block;
+        margin-top: 100px;
+    }
+
+    .inner-sap-section {
+        padding: 160px 0px 60px;
+    }
+    .inner-grey-section::after {
+        background-image: url('../images/sub-page-icon.svg');
+        width: 360px;
+        height: 310px;
+        bottom: 0px;
+        top: auto;
+    }
+    .service-expertise {
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    table td,
+    table th {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .col-decision-making,
+    .col-keys,
+    .col-know-b {
+        width: 100%;
+    }
+
+    .col-know-ba {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .service-expertise ul li, .d-ext ul li {
+        width: 100%;
+        
+    }
+    .service-expertise p {
+        margin: 26px 0px;
+    }
+}

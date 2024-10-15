@@ -1,0 +1,53 @@
+/*** 
+ 
+====================================================================
+main-footer
+====================================================================
+ 
+***/
+.main-footer {
+    background-color: #2d2d2d;
+    padding: 120px 0px;
+}
+.col-m-ftr {
+    width: 50%;
+}
+.aws-select p {
+    margin: 40px 0px 60px;
+    max-width: 477px;
+}
+.right-text p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.right-text p a {
+    color: #fff;
+    text-transform: capitalize;
+}
+.follow-us,
+.follow-us ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 16px;
+    margin: 0px;
+}
+.follow-us ul li {
+    list-style: none;
+}
+.follow-us p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.created-by {
+    display: flex;
+    justify-content: end;
+    margin-top: 56px;
+}
+.row-m-ftr.dy-flex {
+    align-items: end;
+}

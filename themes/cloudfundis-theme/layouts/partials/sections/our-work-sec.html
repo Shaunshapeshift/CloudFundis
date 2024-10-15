@@ -1,0 +1,22 @@
+<section class="our-work-sec mt-h2">
+    <div class="auto-container">
+        {{- with .preheadline -}}<h6>{{.}}</h6>{{- end -}}
+        <h2>{{- .headline -}}</h2>
+        <div class="row-work-box dy-flex">
+            {{- range .works -}}
+            <div class="col-datalake">
+                <div class="inner">
+                    <img src="{{- .cover -}}" alt="">
+                    <div class="text-datalake">
+                        <h5>{{- .title -}}</h5>
+                        <p>{{- .text -}}</p>
+                        <div class="service-btn">
+                            <a href="{{- .url -}}"><img src="assets/images/arrow-up-right.png" alt="">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+</section>

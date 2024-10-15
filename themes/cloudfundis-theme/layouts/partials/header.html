@@ -1,0 +1,27 @@
+
+<div class="auto-container">
+    <div class="row v-center">
+        <div class="header-item item-left">
+            <div class="logo">
+                <a href="#"><img src="assets/images/header-logo.svg" alt=""></a>
+            </div>
+            <div class="sticky-header-logo">
+                <a href="#"><img src="assets/images/-sticky-Isolation_Mode.png" alt=""></a>
+            </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+            <div class="menu-overlay">
+            </div>
+            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+        </div>
+        <!-- menu end here -->
+        <div class="header-item item-right">
+
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>

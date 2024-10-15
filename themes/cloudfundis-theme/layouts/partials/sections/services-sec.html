@@ -1,0 +1,38 @@
+<section class="services-sec mt-h2">
+    <div class="auto-container">
+        <div class="service-inner dy-flex">
+            <div class="col-service">
+                <div class="partners-side">
+                    {{- with .partner_img -}}
+                    <div class="part-img">
+                        <img src="{{- . -}}" alt="">
+                    </div>
+                    {{- end -}}
+                    {{- with .preheadline -}}<h6>{{- . -}}</h6>{{- end -}}
+                    <p>{{- .partner_text -}}</p>
+                    {{- with .button -}}
+                    <div class="theme-btn">
+                        <a href="{{- .url -}}">{{- .text -}}</a>
+                    </div>
+                    {{- end -}}
+                </div>
+            </div>
+            <div class="col-service">
+                <div class="inner-cards-box">
+                    {{- range .services -}}
+                    <div class="service-box">
+                        <div class="inner">
+                            <img src="{{- .thumbnail -}}" alt="">
+                            <h5>{{- .title -}}</h5>
+                            <p>{{- .text -}}</p>
+                            <div class="service-btn">
+                                <a href="{{- .link -}}"><img src="assets/images/arrow-up-right.png" alt="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

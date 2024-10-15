@@ -1,0 +1,13 @@
+<section class="need-assistance mt-h2">
+    <div class="auto-container">
+        <div class="assistance-inner">
+            <h2>{{- .heading -}}</h2>
+            <p>{{- .text -}}</p>
+            {{- with .button -}}
+            <div class="theme-btn">
+                <a href="{{- .url -}}">{{- .text -}}</a>
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+</section>

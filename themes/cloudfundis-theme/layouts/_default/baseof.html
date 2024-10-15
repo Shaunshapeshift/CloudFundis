@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <!--=== Page-Wrapper ===-->
+  <div class="page-wrapper">
+    <!--=== Main-Header ===-->
+    <header class="header" id="sticky-header">
+      {{ partial "header.html" . }}
+    </header>
+    <!--=== Main-Header ===-->
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="main-footer">
+    {{ partial "footer.html" . }}
+  </footer>
+  <!-- jquery.js -->
+  <script src="assets/js/jquery.js"></script>
+
+  <!-- custom-theme.js -->
+  <script src="assets/js/custom-theme.js"></script>
+</body>
+</html>
