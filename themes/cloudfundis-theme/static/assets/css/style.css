@@ -6,11 +6,11 @@ CSS FILE IMPORT
 
  ***/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
-@import url('../css/home-page.css');
-@import url('../css/header.css');
+@import '../css/home-page.css';
+@import '../css/header.css';
 @import '../css/footer.css';
-@import url('../css/service.css');
-@import url('../css/inner-pages.css');
+@import '../css/service.css';
+@import '../css/inner-pages.css';
 
 /*** 
 

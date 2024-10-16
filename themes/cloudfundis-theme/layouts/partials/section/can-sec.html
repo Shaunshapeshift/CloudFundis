@@ -1,0 +1,25 @@
+<section class="can-sec mt-h">
+    <div class="auto-container">
+        <h2>{{- .headline -}}</h2>
+        <div class="text-can">
+            <p>{{- .text -}}</p>
+        </div>
+        <div class="row-consult dy-flex">
+            <div class="co-con">
+                <div class="inner-con">
+                    <h4>{{- .heading -}}</h4>
+                </div>
+            </div>
+            <div class="co-con">
+                <div class="con-contents">
+                {{- range .services -}}
+                    <div class="ware-box">
+                        <h4><img src="{{- .thumbnail -}}" alt=""> {{- .title -}}</h4>
+                        <p>{{- .text -}}</p>
+                    </div>
+                {{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
