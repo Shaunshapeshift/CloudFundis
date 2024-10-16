@@ -3,6 +3,7 @@ title: Our services
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+layout: 'default'
 url: /services
 sections:
     - type: section/hero--short
@@ -10,7 +11,9 @@ sections:
       banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/services
-      headline: 'We are passionate about technology, innovative solutions and changing business for the better.'
+      headline:
+          style: 'h3'
+          text: 'We are passionate about technology, innovative solutions and changing business for the better.'
       services:
           - title: 'Big Data & Analytics'
             thumbnail: '/assets/images/circ.png'

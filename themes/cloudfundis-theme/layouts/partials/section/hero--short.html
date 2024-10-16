@@ -1,8 +1,11 @@
 <!-- Banner Section -->
-<section class="inner-section bg-color">
+<section class="{{.section_classes}} inner-section bg-color">
     <div class="auto-container container-banner">
         <div class="inner">
             <h1>{{- .headline -}}</h1>
+            {{- with .subheadline -}}
+                <h3>{{- . -}}</h3>
+            {{- end -}}
         </div>
     </div>
     <div class="inner-banner-img">

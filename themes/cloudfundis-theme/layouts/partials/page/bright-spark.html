@@ -1,0 +1,25 @@
+<section class="bright-spark mt-h2">
+    <div class="auto-container">
+        <div class="row-spark dy-flex">
+            <div class="col-spark">
+                <div class="inner">
+                    <h2>{{- .headline -}}</h2>
+                </div>
+            </div>
+            {{- with .spark -}}
+            <div class="col-spark">
+                <h3>{{- .heading -}}</h3>
+                <p>{{- .text -}}</p>
+            </div>
+            {{- end -}}
+        </div>
+        <div class="d-ext mt-h">
+            <ul>
+                <li>Data Extractions</li>
+                <li>Data Transformations</li>
+                <li>Data Cleaning </li>
+                <li>Model & Script Development via Jupyter Notebooks</li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -3,6 +3,7 @@ title: Contact us
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+layout: 'default'
 url: /contact
 sections:
     - type: section/hero--short

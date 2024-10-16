@@ -1,0 +1,12 @@
+<section class="slashed-sec mt-h2 bg-img" style="background-image: url('{{- .section_bg -}}');">
+    <div class="auto-container">
+        <div class="inner">
+            <h2>{{- .heading -}}</h2>
+            {{- with .button -}}
+            <div class="theme-btn">
+                <a href="{{- .url -}}">{{- .text -}}</a>
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+</section>
