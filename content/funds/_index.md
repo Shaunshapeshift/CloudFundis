@@ -1,8 +1,10 @@
 ---
 title: Team
+section: team
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+draft: false
 layout: 'default'
 url: /funds
 sections:

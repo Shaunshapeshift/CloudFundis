@@ -1,5 +1,6 @@
 ---
 title: Contact us
+section: contact
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 

@@ -1,8 +1,10 @@
 ---
 title: Support
+section: 'support'
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+draft: false
 layout: 'default'
 url: /bright-spark
 sections:

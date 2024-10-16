@@ -1,8 +1,10 @@
 ---
 title: Our services
+section: services
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+draft: false
 layout: 'default'
 url: /services
 sections:
@@ -44,6 +46,4 @@ sections:
             text: >
                 Our Machine Learning and Data Science solutions are designed to help you unlock the full potential of your data, providing you with the insights you need to make informed decisions.
             link: '/services/machine-learning-data-science'
-
-draft: false
 ---

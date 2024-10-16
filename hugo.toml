@@ -1,32 +1,40 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Cloud Fundis'
-
 theme = 'cloudfundis-theme'
 
 disableKinds = ['taxonomy']
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menu.main]]
 name = 'Services'
-url = '/services/'
 weight = 1
+url = '/services/'
+identifier = 'services'
 [[menu.main]]
 name = 'Work'
 url = '/work/'
 weight = 2
+identifier = 'work'
 [[menu.main]]
 name = 'Team'
 url = '/funds/'
 weight = 3
+identifier = 'team'
 [[menu.main]]
 name = "Blog"
 url = "/blog/"
 weight = 4
+identifier = "blog"
 [[menu.main]]
 name = 'Contact'
 url = '/contact/'
 weight = 5
+identifier = 'contact'
 [[menu.main]]
 name = 'Support'
 url = '/bright-spark/'
 weight = 6
+identifier = 'support'
