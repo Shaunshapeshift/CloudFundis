@@ -3,10 +3,9 @@ title: Team
 section: team
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
-
-draft: false
-layout: 'default'
+headless: false
 url: /funds
+
 sections:
     - type: section/hero--short
       headline: Meet the Fundis

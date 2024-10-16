@@ -1,7 +1,7 @@
 ---
 title: Home
+headless: false
 
-draft: false
 sections:
     - type: section/hero
       headline: Experience a new reality

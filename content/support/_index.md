@@ -3,10 +3,9 @@ title: Support
 section: 'support'
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
-
-draft: false
-layout: 'default'
+headless: false
 url: /bright-spark
+
 sections:
     - type: section/hero--short
       section_classes: 'spark'

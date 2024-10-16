@@ -1,9 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Cloud Fundis'
-theme = 'cloudfundis-theme'
 
-disableKinds = ['taxonomy']
+theme = 'cloudfundis-theme'
+themesDir = 'themes/'
+
+disableKinds = ["taxonomyTerm"]
 
 [markup.goldmark.renderer]
 unsafe = true

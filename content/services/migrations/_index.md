@@ -1,9 +1,9 @@
 ---
 title: Migrations
 section: services
-
-draft: false
+headless: false
 url: /services/migrations
+
 sections:
     - type: section/hero--inner
       headline: Migrations

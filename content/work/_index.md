@@ -3,9 +3,8 @@ title: Our work
 section: work
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
-
-layout: 'default'
 url: /work
+
 sections:
     - type: section/hero--short
       headline: Our work
@@ -44,6 +43,4 @@ sections:
                 text: 'We highly recommend Cloud Fundis, they have become an extension of our core team and operate with the highest levels of integrity.'
                 name: 'Mark van Diggelen (CEO - GamezBoost)'
             link: '/work/aws-migration-and-containerization'
-
-draft: false
 ---
