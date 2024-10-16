@@ -20,7 +20,7 @@ sections:
             thumbnail: '/assets/images/circ.png'
             text: >
                 We provide expert consultation on Big Data management and meticulously implement Data Lakes, Data Warehouses, Dashboarding, and more, unlocking the full potential of your data.
-            link: '/services/big-data-analytics'
+            link: '/services/big-data'
 
           - title: 'Cost Optimisation'
             thumbnail: '/assets/images/engineering.png'

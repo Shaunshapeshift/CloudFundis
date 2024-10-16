@@ -136,6 +136,7 @@ sections:
             logo: '/assets/images/suppliers/Terraform_Logo.png'
 
     - type: section/need-assist
+      custom_classes: 'mt-h2'
       heading: 'Need assistance with an AWS project?'
       text: "We'd love to hear from you, nothing is too big or too small."
       button:

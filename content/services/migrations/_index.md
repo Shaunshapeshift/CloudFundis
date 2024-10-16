@@ -35,6 +35,7 @@ sections:
                 We can assist you in as greater capacity as you like when it comes to executing the migration plan. From consultative guidance to hands on building of the AWS infrastructure, our engineers are ready to help you achieve your goals. Using our skills with infrastructure as code and infrastructure deployment pipelines, we can work with your teams to turn the architectural plans into real world infrastructure with enterprise grade automation and processes to support it.
 
     - type: section/need-assist
+      custom_classes: 'mt-h2'
       heading: 'Need assistance with an AWS project?'
       text: >
           We'd love to hear from you, nothing is too big or too small.

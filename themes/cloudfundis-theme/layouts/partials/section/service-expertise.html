@@ -1,0 +1,13 @@
+<section class="service-expertise mt-h">
+    <div class="auto-container">
+        <h2>{{- .headline -}}</h2>
+        <p>{{- .text -}}</p>
+        {{- with .list -}}
+        <ul>
+            {{- range . -}}
+            <li>{{- . -}}</li>
+            {{- end -}}
+        </ul>
+        {{- end -}}
+    </div>
+</section>

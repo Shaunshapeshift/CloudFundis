@@ -66,7 +66,9 @@ sections:
             thumbnail: '/assets/images/control.png'
             text: >
                 While managed services often limit flexibility, BrightSpark gives you full control to tune your jobs and run them as you see fit, adapting to your unique needs.
+
     - type: section/need-assist
+      custom_classes: 'mt-h2'
       heading: 'Ready to enter a new era of data processing?'
       text: >
           Get in touch to discover how BrightSpark can revolutionise your data workflows without breaking the bank.

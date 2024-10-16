@@ -77,6 +77,7 @@ sections:
           Since we understand that not everyone needs all three phases, we give our customers the option to have us assist with only providing visibility (phase one only), or with both the visibility and a report of potential optimisations (phase one and two only). Phase three is only possible if we’ve had the opportunity to work through the previous phases of the engagement with you.
 
     - type: section/need-assist
+      custom_classes: 'mt-h2'
       heading: 'Need assistance with an AWS cost optimisation project?'
       text: >
           We'd love to hear from you, nothing is too big or too small.
