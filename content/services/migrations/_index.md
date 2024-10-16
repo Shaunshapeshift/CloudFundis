@@ -3,6 +3,7 @@ title: Migrations
 
 layout: default
 
+url: /services/migrations
 sections:
     - type: section/hero--inner
       headline: Migrations

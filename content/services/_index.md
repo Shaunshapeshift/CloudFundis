@@ -3,6 +3,7 @@ title: Our services
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
+layout: default
 url: /services
 sections:
     - type: section/hero--short

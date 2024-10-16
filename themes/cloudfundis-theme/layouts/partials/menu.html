@@ -56,25 +56,14 @@ Renders a menu for the given menu ID.
       <div class="current-menu-title"></div>
       <div class="mobile-menu-close">&times;</div>
   </div>
+  {{- with site.Menus.main -}}
   <ul class="menu-main">
-      <li class="active">
-          <a href="services.html">Services</a>
+      {{- range . }}
+      <li class="">
+          <a href="{{- .URL -}}">{{- .Name -}}</a>
       </li>
-      <li>
-          <a href="work.html">Work</a>                                 
-      </li>
-      <li>
-          <a href="funds.html">Team</a>
-      </li>
-      <li>
-          <a href="blog.html">Blog</a>
-      </li>
-      <li>
-          <a href="contact.html">Contact</a>
-      </li>
-      <li>
-          <a href="bright-spark.html">Support</a>
-      </li>
+      {{- end -}}
   </ul>
+  {{- end -}}
 
 </nav>
