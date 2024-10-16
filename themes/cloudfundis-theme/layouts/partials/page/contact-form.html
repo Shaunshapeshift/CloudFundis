@@ -1,0 +1,45 @@
+<section class="contact-form-sec mt-h">
+    <div class="auto-container">
+        <div class="row-form dy-flex">
+            <div class="col-form">
+                <div class="inner-form-content">
+                    <h2>{{- .headline -}}</h2>
+                    <p>{{- .text -}}</p>
+                    <div class="s-links">
+                        {{- with .follow_us -}}
+                        <div class="follow-us">
+                            <p>{{- .label -}}</p>
+                            <ul>
+                                {{- range .social -}}
+                                <li>
+                                    <a href="{{- .url -}}"><img src="{{- .icon -}}" alt=""></a>
+                                </li>
+                                {{- end -}}
+                            </ul>
+                        </div>
+                        {{- end -}}
+                    </div>
+                </div>
+            </div>
+            {{- with .form -}}
+            <div class="col-form">
+             <div class="form-box">
+                <h3>{{- .heading -}}</h3>
+                <p>{{- .text -}}</p>
+                <form action="{{- .form_action -}}">
+                    {{- range .fields -}}
+                        <input type="{{- .type -}}" name="{{- .name -}}" placeholder="{{- .placeholder -}}">
+                    {{- end -}}
+                    {{- with .textarea -}}
+                        <textarea name="{{- .name -}}" placeholder="{{- .placeholder -}}" id=""></textarea>
+                    {{- end -}}
+                    {{- with .button -}}
+                        <input type="submit" value="{{- .text -}}">
+                    {{- end -}}
+                </form>
+             </div>
+             {{- end -}}
+            </div>
+        </div>
+    </div>
+</section>

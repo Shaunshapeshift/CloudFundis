@@ -7,7 +7,7 @@ url: /funds
 sections:
     - type: section/hero--short
       headline: Meet the Fundis
-      banner_img: 'assets/images/inner-img-banner.png'
+      banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/know-funds
       headline: 'Our name, Cloud Fundis, communicates our commitment and unmatched expertise in the art of cloud computing.'

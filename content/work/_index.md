@@ -7,7 +7,7 @@ url: /work
 sections:
     - type: section/hero--short
       headline: Our work
-      banner_img: 'assets/images/inner-img-banner.png'
+      banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/work
       headline:

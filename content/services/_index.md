@@ -7,7 +7,7 @@ url: /services
 sections:
     - type: section/hero--short
       headline: Our services
-      banner_img: 'assets/images/inner-img-banner.png'
+      banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/services
       headline: 'We are passionate about technology, innovative solutions and changing business for the better.'
