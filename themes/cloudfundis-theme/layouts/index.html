@@ -1,5 +1,5 @@
 {{ define "main" }}
   {{ range .Params.sections }}
-    {{ partial (printf "sections/%s.html" .type) . }}
+    {{ partial (printf "%s.html" .type) . }}
   {{ end }}
 {{ end }}

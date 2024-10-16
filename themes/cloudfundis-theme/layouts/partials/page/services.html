@@ -1,0 +1,19 @@
+<section class="service-page-sec analys mt-h">
+    <div class="auto-container">
+        <h3>{{- .headline -}}</h3>
+        <div class="row-page-service dy-flex">
+            {{ range .services }}
+            <div class="service-box">
+                <div class="inner">
+                    <img src="{{- .thumbnail -}}" alt="">
+                    <h5>{{- .title -}}</h5>
+                    <p>{{- .text -}}</p>
+                    <div class="service-btn">
+                        <a href="{{- .link -}}"><img src="assets/images/arrow-up-right.png" alt="">Read more</a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

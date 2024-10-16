@@ -2,12 +2,12 @@
 title: Home
 
 sections:
-    - type: hero
+    - type: section/hero
       headline: Experience a new reality
       text: >
           Cloud Fundis is an AWS Select Tier partner and provider of cloud-based analytics, big data, machine learning, and DevOps solutions.
 
-    - type: companies-logo
+    - type: section/companies-logo
       section_classes: 'logo-sec-c mt-h'
       companies:
           - name: click
@@ -23,7 +23,7 @@ sections:
           - name: pick-n-pay
             logo: '/assets/images/logos/Pick_n_Pay_logo.png'
 
-    - type: services-sec
+    - type: section/services-sec
       partner_img: '/assets/images/select-tier-services-small.png'
       preheadline: 'OUR SERVICES'
       partner_text: >
@@ -63,10 +63,10 @@ sections:
                 Machine learning, AI, and data science are rapidly becoming the pillars of IT, revolutionising how businesses operate. We empower you to build a strong IT foundation that enhances workflows and drives innovation.
             link: '/#'
 
-    - type: fullwidth-image
+    - type: section/fullwidth-image
       image: '/assets/images/design.png'
 
-    - type: simple-sec
+    - type: section/simple-sec
       section_classes: 'enhance efficiency-sec mt-h'
       inner_classes: 'enhance-efficiency dy-flex'
       headline: 'Meet BrightSpark, your new cloud solution.'
@@ -81,7 +81,7 @@ sections:
           text: 'Discover BrightSpark'
           url: '/#'
 
-    - type: simple-sec
+    - type: section/simple-sec
       section_classes: 'fundis-sec mt-h2'
       inner_classes: 'enhance-efficiency dy-flex'
       preheadline: 'OUR TEAM'
@@ -96,7 +96,7 @@ sections:
           text: 'Meet the Fundis'
           url: '/#'
 
-    - type: our-work-sec
+    - type: section/our-work-sec
       preheadline: 'OUR WORK'
       headline: 'Our aim is to wow our customers with every project.'
       works:
@@ -118,7 +118,7 @@ sections:
                 Rapid deployment and effortless scaling to support growth.
             link: '/#'
 
-    - type: our-suppliers
+    - type: section/our-suppliers
       section_classes: 'our-supplers mt-h'
       suppliers:
           - name: aws
@@ -134,7 +134,7 @@ sections:
           - name: terraform
             logo: '/assets/images/suppliers/Terraform_Logo.png'
 
-    - type: need-assist
+    - type: section/need-assist
       heading: 'Need assistance with an AWS project?'
       text: "We'd love to hear from you, nothing is too big or too small."
       button:

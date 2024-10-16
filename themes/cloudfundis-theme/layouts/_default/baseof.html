@@ -7,7 +7,13 @@
   <!--=== Page-Wrapper ===-->
   <div class="page-wrapper">
     <!--=== Main-Header ===-->
-    <header class="header" id="sticky-header">
+    {{ $header_classes := "" }}
+    {{ if not .Params.header_classes }}
+      {{ $header_classes = "header" }}
+    {{ else }}
+      {{ $header_classes = .Params.header_classes }}
+    {{ end }}
+    <header class='{{ $header_classes }}' id="sticky-header">
       {{ partial "header.html" . }}
     </header>
     <!--=== Main-Header ===-->
@@ -18,9 +24,9 @@
     {{ partial "footer.html" . }}
   </footer>
   <!-- jquery.js -->
-  <script src="assets/js/jquery.js"></script>
+  <script src="/assets/js/jquery.js"></script>
 
   <!-- custom-theme.js -->
-  <script src="assets/js/custom-theme.js"></script>
+  <script src="/assets/js/custom-theme.js"></script>
 </body>
 </html>
