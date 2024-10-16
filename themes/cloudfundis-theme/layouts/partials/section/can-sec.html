@@ -1,13 +1,17 @@
 <section class="can-sec mt-h">
     <div class="auto-container">
-        <h2>{{- .headline -}}</h2>
+        {{- with .headline -}}<h2>{{- . -}}</h2>{{- end -}}
+        {{- with .text -}}
         <div class="text-can">
-            <p>{{- .text -}}</p>
+            <p>{{- . -}}</p>
         </div>
+        {{- end -}}
         <div class="row-consult dy-flex">
             <div class="co-con">
                 <div class="inner-con">
-                    <h4>{{- .heading -}}</h4>
+                    {{- with .top_heading -}}<h2>{{- . -}}</h2>{{- end -}}
+                    {{- with .heading -}}<h4>{{- . -}}</h4>{{- end -}}
+                    {{- with .inner_text -}}<p></p>{{- . -}}</p>{{- end -}}
                 </div>
             </div>
             <div class="co-con">

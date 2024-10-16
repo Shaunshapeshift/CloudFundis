@@ -1,0 +1,45 @@
+<section class="can-sec mt-h">
+    <div class="auto-container">
+        <h2>{{- .top_heading -}}</h2>
+        <div class="text-can">
+            <p>{{- .top_text -}}</p>
+        </div>
+    </div>
+    <div class="tooling">
+        <div class="auto-container">
+            <div class="row-consult dy-flex">
+                <div class="co-con">
+                    <div class="inner-con p-tooling">
+                        <h2>{{- .inner_headline -}}</h2>
+                        <h4>{{- .inner_heading -}}</h4>
+                        <p>{{- .inner_text -}}</p>
+                    </div>
+                </div>
+                <div class="co-con">
+                    <div class="con-contents">
+                        {{- range .services -}}
+                        <div class="ware-box">
+                            <h4><img src="{{- .thumbnail -}}" alt="">{{- .title -}}</h4>
+                            {{- range .content -}}
+                                {{- if eq .style "p" -}}
+                                <p>{{- .inner -}}</p>
+                                {{- else if eq .style "h5" -}}
+                                <h5>{{- .inner -}}</h5>
+                                {{- else if eq .style "ul" -}}
+                                <ul>
+                                    {{- range .inner -}}
+                                    <li>{{- . -}}</li>
+                                    {{- end -}}
+                                </ul>
+                                {{- else if eq .style "none" -}}
+                                {{- .inner -}}
+                                {{- end -}}
+                            {{- end -}}
+                        </div>
+                        {{- end -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
