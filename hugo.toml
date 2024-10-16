@@ -16,7 +16,7 @@ url = '/work/'
 weight = 2
 [[menu.main]]
 name = 'Team'
-url = '/team/'
+url = '/funds/'
 weight = 3
 [[menu.main]]
 name = "Blog"

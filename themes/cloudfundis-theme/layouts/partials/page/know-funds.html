@@ -1,0 +1,71 @@
+<section class="know-funds-sec mt-h">
+    <div class="auto-container">
+        <div class="row-know dy-flex">
+            <div class="col-know">
+                <div class="inner-know">
+                    <h3>{{- .headline -}}</h3>
+                    {{- with .did_know -}}
+                    <div class="did-know">
+                        <h6>{{- .heading -}}</h6>
+                        <p>{{- .text -}}</p>
+                    </div>
+                    {{- end -}}
+                </div>
+            </div>
+            <div class="col-know">
+                <div class="row-ha dy-flex">
+                    {{- range .team -}}
+                    <div class="col-hamish">
+                        <div class="inner">
+                            <img src="{{- .photo -}}" alt="">
+                            <div class="content">
+                                <a href="#">
+                                    <h4>{{- .name -}}</h4>
+                                </a>
+                                <h6>{{- .position -}}</h6>
+                                <p>{{- .text -}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{- end -}}
+                    <div class="col-hamish">
+                        <div class="inner">
+                            <img src="assets/images/man.png" alt="">
+                            <div class="content">
+                                <a href="#">
+                                    <h4>Amanda Sickafoose</h4>
+                                </a>
+                                <h6>Astronomer & Data Science Fundi</h6>
+                                <p>Some say she flew an F16 fighter jet over Nkandla. Some say she was a stow away on Jeff Bezos' flight to space. All we know is she's an Astronomer extraordinaire and data science fundi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-hamish">
+                        <div class="inner">
+                            <img src="assets/images/man.png" alt="">
+                            <div class="content">
+                                <a href="#">
+                                    <h4>Stephen Hunt</h4>
+                                </a>
+                                <h6>Data Engineering Fundi</h6>
+                                <p>An all round Data Engineering guru. Stephen is a master of all things AWS Glue and EMR - if he can't help you with your data lake and engineering needs we don't know who can!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-hamish">
+                        <div class="inner">
+                            <img src="assets/images/man.png" alt="">
+                            <div class="content">
+                                <a href="#">
+                                    <h4>Alex Morton</h4>
+                                </a>
+                                <h6>DevOps Fundi</h6>
+                                <p>Alex started working with AWS over a decade ago. He is a DevOps aficionado and will likely bore you to death about the wonders of Terraform if you give him half a chance!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

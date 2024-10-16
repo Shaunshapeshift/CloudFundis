@@ -3,7 +3,6 @@ title: Our work
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
 
-layout: default
 url: /work
 sections:
     - type: section/hero--short
