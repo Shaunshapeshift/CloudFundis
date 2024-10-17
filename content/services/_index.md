@@ -44,5 +44,5 @@ sections:
             thumbnail: '/assets/images/artificial-intelligence.png'
             text: >
                 Our Machine Learning and Data Science solutions are designed to help you unlock the full potential of your data, providing you with the insights you need to make informed decisions.
-            link: '/services/machine-learning-data-science'
+            link: '/services/data-science'
 ---

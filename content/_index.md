@@ -31,14 +31,14 @@ sections:
           Our innovative solutions allow customers to discover the incredible insights hidden in their data and the transformative impact of automation technologies.
       button:
           text: 'View our services'
-          url: '/#'
+          url: '/services'
 
       services:
           - title: 'Big Data & Analytics'
             thumbnail: '/assets/images/circ.png'
             text: >
                 We provide expert consultation on Big Data management and meticulously implement Data Lakes, Data Warehouses, Dashboarding, and more, unlocking the full potential of your data.
-            link: '/#'
+            link: '/services/big-data'
 
           - title: 'Cost Optimisation'
             thumbnail: '/assets/images/engineering.png'
@@ -50,19 +50,19 @@ sections:
             thumbnail: '/assets/images/strategy.png'
             text: >
                 We live and breathe all things DevOps, enthusiastically embracing the transformative impact these practices have on businesses. Let our deep expertise and passion guide you on your DevOps journey.
-            link: '/#'
+            link: '/services/devops-sre'
 
           - title: 'Migrations'
             thumbnail: '/assets/images/folder.png'
             text: >
                 Migrations don’t have to be stressful. Our engineers are well versed in a wide range of AWS services and can assist you in the smooth migration of workloads & data of any size to AWS.
-            link: '/#'
+            link: '/services/migrations'
 
           - title: 'Machine Learning & Data Science'
             thumbnail: '/assets/images/artificial-intelligence.png'
             text: >
                 Machine learning, AI, and data science are rapidly becoming the pillars of IT, revolutionising how businesses operate. We empower you to build a strong IT foundation that enhances workflows and drives innovation.
-            link: '/#'
+            link: '/services/data-science'
 
     - type: section/fullwidth-image
       image: '/assets/images/design.png'
@@ -80,7 +80,7 @@ sections:
           into your existing workflows.
       button:
           text: 'Discover BrightSpark'
-          url: '/#'
+          url: '/bright-spark'
 
     - type: section/simple-sec
       section_classes: 'fundis-sec mt-h2'
@@ -95,7 +95,7 @@ sections:
           integrations to cultivate lasting value for our customers.
       button:
           text: 'Meet the Fundis'
-          url: '/#'
+          url: '/funds'
 
     - type: section/our-work-sec
       preheadline: 'OUR WORK'

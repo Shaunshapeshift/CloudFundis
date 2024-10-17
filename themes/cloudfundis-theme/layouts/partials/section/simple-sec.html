@@ -13,9 +13,11 @@
                 <div class="effi-side">
                     <h3>{{- .heading -}}</h3>
                     <p>{{- .text -}}</p>
+                    {{- with .button -}}
                     <div class="theme-btn">
-                        <a href="#">Discover BrightSpark</a>
+                        <a href="{{- .url -}}">{{- .text -}}</a>
                     </div>
+                    {{- end -}}
                 </div>
             </div>
         </div>
