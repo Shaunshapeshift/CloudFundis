@@ -15,6 +15,7 @@ sections:
           Data is already an essential part of modern business, and using it properly has been repeatedly proven to generate incredible value for businesses. However, badly architected Big Data and Analytics solutions can easily cause massively inflated costs without many of the benefits that they should be providing. To get the most out of data with minimal running costs, it is critical that the Big Data and Analytics solutions built to use it are well architected, and easy for data teams within the business to use.
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/aaa.png'
 
     - type: section/can-sec

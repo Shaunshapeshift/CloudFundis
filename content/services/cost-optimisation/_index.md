@@ -15,6 +15,7 @@ sections:
           Cost is a concern for most businesses when it comes to cloud platforms. While cloud providers offer a vast array of services that can help improve business agility and delivery, these services can become very expensive if they are not architected and managed correctly. To have successful solutions running in the cloud, it is critical for the correct technology and processes to be in place, providing detailed visibility into ongoing expenditure, and for cost to be a key consideration when planning architectural patterns.
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/cost-banner.png'
 
     - type: section/can-sec

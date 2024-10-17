@@ -1,0 +1,15 @@
+<section class="key-outs mt-h">
+    <div class="auto-container">
+        {{- with .headline -}}<h2>{{- . -}}</h2>{{- end -}}
+        {{- with .cols -}}
+        <div class="row-keys dy-flex">
+            {{- range . -}}
+            <div class="col-keys">
+                {{- with .heading -}}<h2>{{- . -}}</h2>{{- end -}}
+                {{- with .text -}}<p>{{- . -}}</p>{{- end -}}
+            </div>
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+</section>

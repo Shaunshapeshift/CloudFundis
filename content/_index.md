@@ -65,6 +65,7 @@ sections:
             link: '/services/data-science'
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/design.png'
 
     - type: section/simple-sec
@@ -105,19 +106,19 @@ sections:
             cover: '/assets/images/datalake.png'
             text: >
                 Streamlining data management & cutting costs by 20%
-            link: '/#'
+            link: '/work/aws-datalake-for-sap-hana'
 
           - title: 'AWS Datalake and EMR Automation'
             cover: '/assets/images/thre.png'
             text: >
                 Real-time data extraction. Seamless cluster reliability. Advanced data streaming.
-            link: '/#'
+            link: '/work/aws-data-lake-emr-automation'
 
           - title: 'AWS migration & containerization'
             cover: '/assets/images/two.png'
             text: >
                 Rapid deployment and effortless scaling to support growth.
-            link: '/#'
+            link: '/work/aws-migration-containerisation-ci-cd'
 
     - type: section/our-suppliers
       section_classes: 'our-supplers mt-h'

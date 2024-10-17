@@ -15,6 +15,7 @@ sections:
           For many years, companies have been moving from outdated legacy infrastructures to the cloud, in order to make use of highly available and resilient infrastructure and cut out the need to procure costly physical assets. Cloud technologies allow businesses to respond quickly to new opportunities, innovate and deliver for their customers rapidly, and ultimately be more competitive.
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/message-b.png'
 
     - type: section/can-sec

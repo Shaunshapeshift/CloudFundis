@@ -1,5 +1,5 @@
 ---
-title: Our work
+title: AWS Data Lake for SAP HANA
 section: work
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
@@ -7,7 +7,7 @@ url: /work
 
 sections:
     - type: section/hero--short
-      headline: Our work
+      headline: AWS Data Lake for SAP HANA
       banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/work
@@ -33,7 +33,7 @@ sections:
             quote:
                 text: 'Cloud Fundis has been able to work with flexible requirements and goals and work with us under high pressure…'
                 name: 'Harold Gikas (Clickatell)'
-            link: '/work/aws-datalake-and-emr-automation'
+            link: '/work/aws-data-lake-emr-automation'
 
           - title: 'AWS migration, containerisation & CI/CD'
             cover: '/assets/images/thre.png'
@@ -42,5 +42,5 @@ sections:
             quote:
                 text: 'We highly recommend Cloud Fundis, they have become an extension of our core team and operate with the highest levels of integrity.'
                 name: 'Mark van Diggelen (CEO - GamezBoost)'
-            link: '/work/aws-migration-and-containerization'
+            link: '/work/aws-migration-containerisation-ci-cd'
 ---

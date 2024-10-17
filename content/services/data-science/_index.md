@@ -23,6 +23,7 @@ sections:
                 These incredible technologies don’t come without their challenges, of course. Data scientists can often spend much of their time wrangling data, struggling with pipelines and generally not doing enough of what they are highly skilled at - data science. We believe data scientists should be enabled to focus their time on the models and developing features to get the best results, not hammering away at the orchestration of their pipelines..'
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/machine.png'
 
     - type: section/can-sec

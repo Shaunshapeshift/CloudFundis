@@ -19,7 +19,24 @@
                 {{- range .services -}}
                     <div class="ware-box">
                         <h4><img src="{{- .thumbnail -}}" alt=""> {{- .title -}}</h4>
-                        <p>{{- .text -}}</p>
+                        {{- with .text -}}<p>{{- . -}}</p>{{- end -}}
+                        {{- range .content -}}
+                            {{- if eq .style "p" -}}
+                            <p>{{- .inner -}}</p>
+                            {{- else if eq .style "h5" -}}
+                            <h5>{{- .inner -}}</h5>
+                            {{- else if eq .style "ul" -}}
+                            <ul>
+                                {{- range .inner -}}
+                                <li>{{- . -}}</li>
+                                {{- end -}}
+                            </ul>
+                            {{- else if eq .style "html" -}}
+                            {{- .inner | safeHTML -}}
+                            {{- else if eq .style "none" -}}
+                            {{- .inner -}}
+                            {{- end -}}
+                        {{- end -}}
                     </div>
                 {{- end -}}
                 </div>

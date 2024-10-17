@@ -1,0 +1,21 @@
+<section class="decision-making ">
+    <div class="auto-container">
+        {{- with .headline -}}
+        <h4>{{- . -}}</h4>
+        {{- end -}}
+        {{- with .text -}}
+        <div class="text-para">
+            <p>{{- . -}}</p>
+        </div>
+        {{- end -}}
+        {{- with .cols -}}
+        <div class="row-decision-making dy-flex">
+            {{- range . -}}
+            <div class="col-decision-making">
+                <p>{{- .text -}}</p>
+            </div>
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+</section>

@@ -15,6 +15,7 @@ sections:
           DevOps is the combination of cultural shifts, development practices, technology and automation. The culmination of these facets can help businesses realise benefits in terms of delivery and reliability, when compared to traditional software development and infrastructure management processes. Achieving these changes, understanding the tooling available and implementing the correct processes can be challenging.
 
     - type: section/fullwidth-image
+      custom_classes: 'design-sec mt-h2'
       image: '/assets/images/tabs.png'
 
     - type: section/can-sec--v2

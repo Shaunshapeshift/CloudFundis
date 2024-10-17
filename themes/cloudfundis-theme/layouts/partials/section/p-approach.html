@@ -1,0 +1,20 @@
+<section class="p-approach mt-h">
+    <div class="auto-container">
+        <div class="row-consult dy-flex">
+            {{- with .headline -}}
+            <div class="co-con">
+                <div class="inner-con">
+                    <h2>{{- . -}}</h2>
+                </div>
+            </div>
+            {{- end -}}
+            {{- with .text -}}
+            <div class="co-con">
+                <div class="con-content">
+                    <p>{{- . -}}</p>
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+</section>

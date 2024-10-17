@@ -5,7 +5,7 @@ CSS FILE IMPORT
 ====================================================================
 
  ***/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css';
 @import '../css/home-page.css';
 @import '../css/header.css';
 @import '../css/footer.css';
