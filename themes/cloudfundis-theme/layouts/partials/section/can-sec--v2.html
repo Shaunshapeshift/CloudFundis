@@ -31,6 +31,8 @@
                                     <li>{{- . -}}</li>
                                     {{- end -}}
                                 </ul>
+                                {{- else if eq .style "html" -}}
+                                {{- .inner | safeHTML -}}
                                 {{- else if eq .style "none" -}}
                                 {{- .inner -}}
                                 {{- end -}}

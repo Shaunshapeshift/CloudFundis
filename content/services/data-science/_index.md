@@ -7,15 +7,20 @@ url: /services/data-science
 sections:
     - type: section/hero--inner
       headline: Machine Learning & Data Science
-      thumbnail: '/assets/images/inner-img-logo.png'
+      thumbnail: '/assets/images/flower.png'
 
     - type: section/consult-sec
       headline: 'Machine learning, AI and data science are the hottest topics in IT. We can assist you in integrating machine learning, AI and data science into your workflows to improve your business.'
       content:
           - style: p
-            inner: 'Machine learning (and data science) can help a business leapfrog to the front of the pack in their industry. With the advent of unified data platforms and almost limitless compute and storage, companies of all sizes are realising the value of incorporating machine learning and data science into their business practices.'
+            inner: >
+                Machine learning (and data science) can help a business leapfrog to the front of the pack in their industry. With the advent of unified data platforms and almost limitless compute and storage, companies of all sizes are realising the value of incorporating machine learning and data science into their business practices.
+          - style: html
+            inner: >
+                <p><br/></p>
           - style: p
-            inner: 'These incredible technologies don’t come without their challenges, of course. Data scientists can often spend much of their time wrangling data, struggling with pipelines and generally not doing enough of what they are highly skilled at - data science. We believe data scientists should be enabled to focus their time on the models and developing features to get the best results, not hammering away at the orchestration of their pipelines..'
+            inner: >
+                These incredible technologies don’t come without their challenges, of course. Data scientists can often spend much of their time wrangling data, struggling with pipelines and generally not doing enough of what they are highly skilled at - data science. We believe data scientists should be enabled to focus their time on the models and developing features to get the best results, not hammering away at the orchestration of their pipelines..'
 
     - type: section/fullwidth-image
       image: '/assets/images/machine.png'
