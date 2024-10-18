@@ -11,6 +11,8 @@ CSS FILE IMPORT
 @import '../css/footer.css';
 @import '../css/service.css';
 @import '../css/inner-pages.css';
+@import '../css/syntax.css';
+@import '../css/code-snippet.css';
 
 /*** 
 

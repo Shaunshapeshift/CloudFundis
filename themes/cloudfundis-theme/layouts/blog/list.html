@@ -1,4 +1,7 @@
 {{ define "main" }}
+    {{ $posts := where site.RegularPages "Section" "blog" }}
+    {{ $paginator := .Paginate $posts.ByDate.Reverse 5 }}
+
     <!-- Banner Section -->
     <section class="inner-section bg-color">
         <div class="auto-container container-banner">
@@ -22,118 +25,94 @@
                     <div class="menu-list">
                         <ul>
                             <li><a href="#">View all</a></li>
-                            <li><a href="#">AWS (4)</a></li>
-                            <li><a href="#">Bash (1)</a></li>
-                            <li><a href="#">GitHub (1)</a></li>
-                            <li><a href="#">Lambda (1)</a></li>
-                            <li><a href="#">Linux (6)</a></li>
-                            <li><a href="#">PySpark (3)</a></li>
-                            <li><a href="#">Scala (1)</a></li>
-                            <li><a href="#">SharePoint (1)</a></li>
-                            <li><a href="#">Spark (3)</a></li>
-                            <li><a href="#">STS (1)</a></li>
-                            <li><a href="#">Terraform (1)</a></li>
-                            <li><a href="#">Tools (6)</a></li>
-                            <li><a href="#">Tuning (3)</a></li>
+                            {{ range first 20 site.Taxonomies.categories.ByCount }}
+                                <li><a href="#" class="font_size_{{ .Count }}">
+                                    {{ .Page.Title }} ({{ .Count }})
+                                </a></li>
+                            {{ end }}
 
                         </ul>
                     </div>
                 </div>
                 <div class="col-know-b">
                     <div class="row-partitioning dy-flex">
+                        {{- $recent_post := first 1 $paginator.Pages -}}
+                        {{- with $recent_post -}}
+                        {{- range . -}}
                         <div class="col-partitioning">
                             <div class="inner">
-                                <img src="/assets/images/partitioning.png" alt="">
+                                {{- with .Params.thumbnail -}}
+                                <img src="{{- . -}}" alt="">
+                                {{- end -}}
                                 <div class="inner-content">
-                                    <a href="#"><h4>Using different partitioning methods in Spark to help with data skew</h4></a>
-                                    <p>Building DataLakes can become complicated when dealing with lots of data.
-                                        Even more so, when working with heavily skewed data. In this post, we'll be
-                                        looking at how we can improve your long running Spark jobs caused by skewed
-                                        data.</p>
+                                    <a href="{{- .Permalink -}}"><h4>{{- .Title -}}</h4></a>
+                                    <p>{{- .Params.description -}}</p>
                                     <div class="row-value-info">
                                         <img src="/assets/images/Ellipse.png" alt="">
                                         <div class="info">
-                                            <h6>Name Surname</h6>
-                                            <p>00 Month 2024</p>
+                                            {{- with .Params.authors -}}
+                                            {{- range . -}}
+                                            <h6>{{- . -}}</h6>
+                                            {{- end -}}
+                                            {{- end -}}
+                                            {{- with .Params.Date -}}
+                                            <p>{{ time.Format "02 Jan 2006" . }}</p>
+                                            {{- end -}}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {{- end -}}
+                        {{- end -}}
+                        {{- $next_posts := first 4 (after 1 $paginator.Pages) -}}
+                        {{- with $next_posts -}}
+                        {{- range . -}}
                         <div class="col-partitioning">
                             <div class="inner">
-                                <img src="/assets/images/first-b.png" alt="">
+                                {{- with .Params.thumbnail -}}
+                                <img src="{{- . -}}" alt="">
+                                {{- end -}}
                                 <div class="inner-content">
-                                    <a href="#"><h4>GitHub Actions with Amazon Web Services</h4></a>
-                                    <p>Using GitHub Action to interact with Amazon Web Services</p>
+                                    <a href="{{- .Permalink -}}"><h4>{{- .Title -}}</h4></a>
+                                    <p>{{- .Params.description -}}</p>
                                     <div class="row-value-info">
                                         <img src="/assets/images/Ellipse.png" alt="">
                                         <div class="info">
-                                            <h6>Name Surname</h6>
-                                            <p>00 Month 2024</p>
+                                            {{- with .Params.authors -}}
+                                            {{- range . -}}
+                                            <h6>{{- . -}}</h6>
+                                            {{- end -}}
+                                            {{- end -}}
+                                            {{- with .Params.Date -}}
+                                            <p>{{ time.Format "02 Jan 2006" . }}</p>
+                                            {{- end -}}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-partitioning">
-                            <div class="inner">
-                                <img src="/assets/images/s-b.png" alt="">
-                                <div class="inner-content">
-                                    <a href="#"><h4>GitHub Actions with Amazon Web Services</h4></a>
-                                    <p>Using GitHub Action to interact with Amazon Web Services</p>
-                                    <div class="row-value-info">
-                                        <img src="/assets/images/Ellipse.png" alt="">
-                                        <div class="info">
-                                            <h6>Name Surname</h6>
-                                            <p>00 Month 2024</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-partitioning">
-                            <div class="inner">
-                                <img src="/assets/images/t-b.png" alt="">
-                                <div class="inner-content">
-                                    <a href="#"><h4>GitHub Actions with Amazon Web Services</h4></a>
-                                    <p>Using GitHub Action to interact with Amazon Web Services</p>
-                                    <div class="row-value-info">
-                                        <img src="/assets/images/Ellipse.png" alt="">
-                                        <div class="info">
-                                            <h6>Name Surname</h6>
-                                            <p>00 Month 2024</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-partitioning">
-                            <div class="inner">
-                                <img src="/assets/images/f-b.png" alt="">
-                                <div class="inner-content">
-                                <a href="#"><h4>GitHub Actions with Amazon Web Services</h4></a>
-                                    <p>Using GitHub Action to interact with Amazon Web Services</p>
-                                    <div class="row-value-info">
-                                        <img src="/assets/images/Ellipse.png" alt="">
-                                        <div class="info">
-                                            <h6>Name Surname</h6>
-                                            <p>00 Month 2024</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
+                        {{- end -}}
+                        {{- end -}}
                     </div>
                     <div class="row-next-p">
                         <ul>
-                            <li>
-                                <a href="#"><img src="/assets/images/Arrow-right.png" alt="">Previous</a>
+                            {{ if $paginator.HasPrev }}
+                            <li class="pagination__item pagination__item--previous">
+                                <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+                                    <img src="/assets/images/Arrow-right.png" alt="">Previous
+                                </a>
                             </li>
-                            <li>
-                                <a href="#">Previous<img src="/assets/images/Arrow-left.png" alt=""></a>
+                            {{ else }}
+                            <li class="pagination-empty"></li>
+                            {{ end }}
+                            {{ if $paginator.HasNext }}
+                            <li class="pagination__item pagination__item--next">
+                                <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+                                    Next<img src="/assets/images/Arrow-left.png" alt="">
+                                </a>
                             </li>
+                            {{ end }}
                         </ul>
                     </div>
                 </div>

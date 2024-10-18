@@ -106,7 +106,7 @@ sections:
             cover: '/assets/images/datalake.png'
             text: >
                 Streamlining data management & cutting costs by 20%
-            link: '/work/aws-datalake-for-sap-hana'
+            link: '/work/aws-data-lake-for-sap-hana'
 
           - title: 'AWS Datalake and EMR Automation'
             cover: '/assets/images/thre.png'

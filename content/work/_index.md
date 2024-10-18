@@ -1,5 +1,5 @@
 ---
-title: AWS Data Lake for SAP HANA
+title: Our Work
 section: work
 header_classes: 'header header-white'
 header_logo: '/assets/images/logo-white.png'
@@ -7,7 +7,7 @@ url: /work
 
 sections:
     - type: section/hero--short
-      headline: AWS Data Lake for SAP HANA
+      headline: Our Work
       banner_img: '/assets/images/inner-img-banner.png'
 
     - type: page/work
@@ -24,7 +24,7 @@ sections:
             quote:
                 text: 'Cloud Fundis went out of their way to provide coaching and training, all the while optimising the design and set-up to be cost-effective'
                 name: Dietz Meiring (JDGroup)
-            link: '/work/aws-datalake-for-sap-hana'
+            link: '/work/aws-data-lake-for-sap-hana'
 
           - title: 'AWS Datalake and EMR Automation'
             cover: '/assets/images/two.png'

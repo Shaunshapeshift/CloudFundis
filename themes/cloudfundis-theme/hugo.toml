@@ -11,3 +11,8 @@ weight = 10
 [module.hugoVersion]
 extended = false
 min = "0.116.0"
+
+[pagination]
+disableAliases = false
+pagerSize = 5
+path = 'page'

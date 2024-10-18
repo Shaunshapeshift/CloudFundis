@@ -1,1 +1,109 @@
-single blog
+{{- define "js-footer" -}}
+    <script src="/assets/js/general.js"></script>
+{{- end -}}
+
+{{- define "main" -}}
+<!-- Banner Section -->
+<section class="inner-sap-section">
+    <div class="container-banner">
+        <div class="data-skew">
+            <h2>{{- .Title -}}</h2>
+        </div>
+    </div>
+</section>
+<!--End Banner Section -->
+
+<section class="inner-g-banner-sec">
+    <img src="{{- .Params.thumbnail -}}" alt="">
+</section>
+
+<section class="data-skew-aec mt-h">
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="inner-content-s">
+                <h3>{{- .Params.description -}}</h3>
+                {{- .Content -}}
+            </div>
+        </div>
+        <div class="row-next-p">
+            <ul>
+                <li>
+                    <a href="#"><img src="/assets/images/Arrow-right.png" alt="">Back to articles</a>
+                </li>
+                <li>
+                    <a href="#">Up next<img src="/assets/images/Arrow-left.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="r-article mt-h">
+    <div class="auto-container">
+        <h2>Related articles</h2>
+        <div class="row-article dy-flex">
+            <div class="col-article">
+                <div class="col-partitioning">
+                    <div class="inner">
+                        <img src="/assets/images/first-b.png" alt="">
+                        <div class="inner-content">
+                            <a href="#">
+                                <h4>GitHub Actions with Amazon Web Services</h4>
+                            </a>
+                            <p>Using GitHub Action to interact with Amazon Web Services</p>
+                            <div class="row-value-info">
+                                <img src="/assets/images/Ellipse.png" alt="">
+                                <div class="info">
+                                    <h6>Name Surname</h6>
+                                    <p>00 Month 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-article">
+                <div class="col-partitioning">
+                    <div class="inner">
+                        <img src="/assets/images/s-b.png" alt="">
+                        <div class="inner-content">
+                            <a href="#">
+                                <h4>GitHub Actions with Amazon Web Services</h4>
+                            </a>
+                            <p>Using GitHub Action to interact with Amazon Web Services</p>
+                            <div class="row-value-info">
+                                <img src="/assets/images/Ellipse.png" alt="">
+                                <div class="info">
+                                    <h6>Name Surname</h6>
+                                    <p>00 Month 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-article">
+                <div class="col-partitioning">
+                    <div class="inner">
+                        <img src="/assets/images/f-b.png" alt="">
+                        <div class="inner-content">
+                            <a href="#">
+                                <h4>GitHub Actions with Amazon Web Services</h4>
+                            </a>
+                            <p>Using GitHub Action to interact with Amazon Web Services</p>
+                            <div class="row-value-info">
+                                <img src="/assets/images/Ellipse.png" alt="">
+                                <div class="info">
+                                    <h6>Name Surname</h6>
+                                    <p>00 Month 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{- end -}}

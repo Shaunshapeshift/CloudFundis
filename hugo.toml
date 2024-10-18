@@ -5,10 +5,31 @@ title = 'Cloud Fundis'
 theme = 'cloudfundis-theme'
 themesDir = 'themes/'
 
-disableKinds = ["taxonomyTerm"]
+[taxonomies]
+category = 'categories'
+
+
+[markup.goldmark.extensions]
+footnote = true
 
 [markup.goldmark.renderer]
 unsafe = true
+
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
+
 
 [[menu.main]]
 name = 'Services'
@@ -40,3 +61,10 @@ name = 'Support'
 url = '/bright-spark/'
 weight = 6
 identifier = 'support'
+
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
