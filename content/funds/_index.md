@@ -43,6 +43,12 @@ sections:
             position: 'DevOps Fundi'
             text: >
                 Alex started working with AWS over a decade ago. He is a DevOps aficionado and will likely bore you to death about the wonders of Terraform if you give him half a chance!
+
+          - name: 'Wilhelm de Lange'
+            photo: '/assets/images/alex2.webp'
+            position: 'Dev guru'
+            text: >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          
     - type: section/need-assist
       custom_classes: 'mt-h2'
