@@ -1,7 +1,7 @@
 ---
 title: AWS Data Lake for SAP HANA
 section: work
-url: /work/aws-data-lake-emr-automation
+url: /work/aws-data-lake-for-sap-hana
 
 sections:
     - type: section/hero--work
