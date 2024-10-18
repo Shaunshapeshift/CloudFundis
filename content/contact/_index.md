@@ -15,7 +15,7 @@ sections:
     - type: page/contact-form
       headline: 'We are always ready to help you and answer your questions.'
       text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis vitae sapien sed auctor. Nam dignissim ligula sed accumsan blandit.
+          At Cloud Fundis, we choose performance, cost, and efficiency—why not have it all? Ready to take your business to new heights? Drop us a line and let’s make magic happen!
       follow_us:
           label: Follow us
           social:
