@@ -1,5 +1,10 @@
+{{ define "top_body" }}
+{{ .Scratch.Set "header_classes" "header header-white" }}
+{{ .Scratch.Set "header_logo" "/assets/images/logo-white.png" }}
+{{ end }}
+
 {{ define "main" }}
-    {{ $posts := where site.RegularPages "Section" "blog" }}
+    {{ $posts :=  .RegularPages }}
     {{ $paginator := .Paginate $posts.ByDate.Reverse 5 }}
 
     <!-- Banner Section -->
@@ -39,7 +44,7 @@
                         {{- $recent_post := first 1 $paginator.Pages -}}
                         {{- with $recent_post -}}
                         {{- range . -}}
-                        <div class="col-partitioning">
+                        <div class="col-partitioning" style="{{- if eq (len $paginator.Pages) 1}}border: none;{{- end -}}">
                             <div class="inner">
                                 {{- with .Params.thumbnail -}}
                                 <img src="{{- . -}}" alt="">

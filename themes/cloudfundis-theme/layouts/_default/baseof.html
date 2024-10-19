@@ -4,11 +4,14 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  {{ block "top_body" . }}{{ end }}
   <!--=== Page-Wrapper ===-->
   <div class="page-wrapper">
     <!--=== Main-Header ===-->
     {{ $header_classes := "" }}
-    {{ if not .Params.header_classes }}
+    {{ if .Scratch.Get "header_classes" }}
+      {{ $header_classes = .Scratch.Get "header_classes" }}
+    {{ else if not .Params.header_classes }}
       {{ $header_classes = "header" }}
     {{ else }}
       {{ $header_classes = .Params.header_classes }}

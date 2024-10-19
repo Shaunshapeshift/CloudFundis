@@ -3,9 +3,15 @@
     <div class="row v-center">
         <div class="header-item item-left">
             <div class="logo">
+                {{ block "top_body" . }}{{ end }}
+
                 {{ $header_logo := "" }}
-                {{ if not .Params.header_logo }}
+                {{ if .Scratch.Get "header_logo" }}
+                    {{ $header_logo = .Scratch.Get "header_logo" }}
+                {{ else if not .Params.header_logo }}
                   {{ $header_logo = "/assets/images/header-logo.svg" }}
+                {{ else if (.Scratch.Get "header_logo") }}
+                  {{ $header_logo = (.Scratch.Get "header_logo") }}
                 {{ else }}
                   {{ $header_logo = .Params.header_logo }}
                 {{ end }}
