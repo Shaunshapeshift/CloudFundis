@@ -11,7 +11,7 @@
   <ul class="menu-main">
       {{- range . }}
       <li class="{{ if eq $currentPageSection .Identifier }}active{{end}}">
-          <a href="{{- .URL -}}">{{- .Name -}}</a>
+          <a href="{{- .URL -}}" {{- if strings.HasPrefix .URL "http" -}} target="_blank" rel="noopener"{{- end -}}>{{- .Name -}}</a>
       </li>
       {{- end -}}
   </ul>

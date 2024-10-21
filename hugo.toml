@@ -58,7 +58,7 @@ weight = 5
 identifier = 'contact'
 [[menu.main]]
 name = 'Support'
-url = '/bright-spark/'
+url = 'https://cloud-fundis.freshdesk.com/support/login'
 weight = 6
 identifier = 'support'
 

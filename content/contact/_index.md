@@ -19,17 +19,14 @@ sections:
       follow_us:
           label: Follow us
           social:
-              - name: 'Facebook'
-                icon: '/assets/images/ic_baseline-facebook.svg'
-                url: '#'
               - name: 'LinkedIn'
                 icon: '/assets/images/insta.svg'
-                url: '#'
+                url: 'https://www.linkedin.com/company/cloud-fundis/?originalSubdomain=za'
 
       form:
           heading: 'Get in touch'
           text: >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               
           form_action: '#'
 
           fields:
