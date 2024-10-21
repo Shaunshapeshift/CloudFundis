@@ -75,6 +75,6 @@ sections:
 
       button:
           text: 'Start your BrightSpark journey'
-          url: '#'
+          url: '/contact'
 draft: false
 ---
