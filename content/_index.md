@@ -25,7 +25,7 @@ sections:
             logo: '/assets/images/logos/Pick_n_Pay_logo.png'
 
     - type: section/services-sec
-      partner_img: '/assets/images/select-tier-services-small.png'
+      partner_img: '/assets/images/select-tier-services-small2.png'
       preheadline: 'OUR SERVICES'
       partner_text: >
           Our innovative solutions allow customers to discover the incredible insights hidden in their data and the transformative impact of automation technologies.
