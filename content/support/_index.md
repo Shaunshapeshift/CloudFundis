@@ -30,7 +30,7 @@ sections:
       heading: 'BrightSpark slashed Capetic Banks analytics processing costs by 50%'
       button:
           text: 'Read more on IT Online'
-          url: '#'
+          url: 'https://it-online.co.za/2024/07/23/cloud-fundis-slashes-analytics-processing-costs-by-50/'
 
     - type: page/services
       headline:
