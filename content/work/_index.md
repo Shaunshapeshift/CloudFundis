@@ -18,7 +18,7 @@ sections:
 
       works:
           - title: 'AWS Datalake for SAP HANA'
-            cover: '/assets/images/work1.png'
+            cover: '/assets/images/work11.png'
             text: >
                 Streamlining data management & cutting costs by 20%
             quote:
