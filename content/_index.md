@@ -103,7 +103,7 @@ sections:
       headline: 'Our aim is to wow our customers with every project.'
       works:
           - title: 'AWS Datalake for SAP HANA'
-            cover: '/assets/images/datalake.png'
+            cover: '/assets/images/work11.png'
             text: >
                 Streamlining data management & cutting costs by 20%
             link: '/work/aws-data-lake-for-sap-hana'
