@@ -48,7 +48,7 @@ sections:
             photo: '/assets/images/WilhelmdeLange.webp'
             position: 'Data Engineer'
             text: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Some say he returned to South Africa from his travels in Asia on a raft of friendly sea turtles......he's just that good at earning trust. Some say he could find gold at the bottom of any lake, but those formed of data are his speciality. All we know is he survived building a data lake at AWS for none other than the EC2 team, has got some mad skills, and is just an all round top fella.
          
     - type: section/need-assist
       custom_classes: 'mt-h2'
