@@ -32,7 +32,7 @@ sections:
             text: >
                 Some say she flew an F16 fighter jet over Nkandla. Some say she was a stow away on Jeff Bezos' flight to space. All we know is she's an Astronomer extraordinaire and data science fundi.
 
-          - name: 'Stephen Hunt'
+          - name: 'Stephen Hunt -2'
             photo: '/assets/images/stephen2.webp'
             position: 'Data Engineering Fundi'
             text: >
